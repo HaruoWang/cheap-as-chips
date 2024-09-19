@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>cheap as chips</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content="thumbnail.png" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="p5.min.js"></script>
+  </head>
+  <body>
+    <main>    
+      <svg>
+        <defs>
+          <mask id="MASK" maskunits="userSpaceOnUse"
+                    maskcontentunits="userSpaceOnUse">
+            <image href="mask.gif" id="mask"/>
+            <image href="chip.gif" id="chip"/>
+            <!--作者：台灣電影文化公司。台南縣甘薯技術綜合示範。典藏者：國家電影及視聽文化中心。政府資料開放授權條款-第1版（Open Government Data License, version 1.0）。發佈於《臺灣影視聽數位博物館》[https://tfai.openmuseum.tw/muse/digi_object/4edfd009ea97a0936bbf40c689885fb5#17299]（2024/05/20瀏覽）。-->
+          </mask>      
+        </defs>
+        <foreignobject mask="url(#MASK)" width="100%" height="100%">
+          <div id="p5sketch"></div>
+        </foreignobject>
+      </svg>
+    </main>
+    <script type="text/javascript" src="sketch.js"></script>
+  </body>
+</html>
